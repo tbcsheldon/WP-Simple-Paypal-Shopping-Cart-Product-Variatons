@@ -1,0 +1,22 @@
+.wp_cart_variation_section margin-top { margin-top: 12px; }
+.wp_cart_variation_section .panel-title { font-weight: bold; }
+.wp_cart_variation_section .option-name { font-weight: 500; }
+.wp_cart_variation_section .product-list-group { margin-top: 10px; }
+.wp_cart_variation_section .list-group-item { padding: 0px; }
+.wp_cart_variation_section .list-group-item label { padding: 10px 15px; display: block; font-weight: 400; margin: 0px; border: solid 1px #fff; cursor: pointer !important; }
+.wp_cart_variation_section .list-group-item label .option-image { display: inline-block; margin-right: 10px; border: solid 2px #fff; }
+.wp_cart_variation_section .list-group-item label .text { position: relative; }
+.wp_cart_variation_section .list-group-item label .text:after { content: "Click to add \f096"; position: relative; display: inline-block; font-family: FontAwesome; left: 10px; font-size: 13px; font-weight: bold; color: #c6c6c6; }
+.wp_cart_variation_section .list-group-item label strong { font-weight: bold; }
+.wp_cart_variation_section .list-group-item label.active { background: #D9EDF7; border: solid 1px #70bbe1; }
+.wp_cart_variation_section .list-group-item label.active .option-image { border: solid 2px #5cb85c; }
+.wp_cart_variation_section .list-group-item label.active .text:after { content: 'Added! \f046'; font-weight: bold; color: #5cb85c; font-size: 15px; }
+.wp_cart_variation_section .list-group-item label .option-image { display: inline-block; position: relative; }
+.wp_cart_variation_section .list-group-item label .option-image:before { content: '\f00e'; display: block; position: absolute; text-align: center; color: #fff; font-family: FontAwesome; font-size: 40px; top: 0px; bottom: 0px; left: 0px; right: 0px; padding-top: 10px; background: rgba(0, 0, 0, 0.3); opacity: 0; transition: opacity .3s; }
+.wp_cart_variation_section .list-group-item label .option-image:after { content: "Zoom In"; display: block; position: absolute; bottom: 10px; font-size: 18px; color: #FFF; opacity: 0; transition: opacity .3s; font-weight: bold; text-align: center; width: 100%; }
+.wp_cart_variation_section .list-group-item label img { width: 40px; transition: width .3s; }
+@media (min-width: 768px) { .wp_cart_variation_section .list-group-item label:hover .option-image:before, .wp_cart_variation_section .list-group-item label:hover .option-image:after { opacity: 1; }
+  .wp_cart_variation_section .list-group-item label:hover img { width: 100px; } }
+.wp_cart_variation_section .list-group-item .checkbox { display: inline-block; margin-right: 10px; display: none; }
+.wp_cart_variation_section .list-group-item:first-child label { border-top-left-radius: 4px; border-top-right-radius: 4px; }
+.wp_cart_variation_section .list-group-item:last-child label { border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; }
